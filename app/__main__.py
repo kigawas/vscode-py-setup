@@ -1,11 +1,11 @@
 from typing import Optional, Tuple
 
 
-def f(a: Optional[int] = None) -> Optional[int]:
+def f(a: int = None) -> Optional[int]:
     return a
 
 
-def g(a):
+def g(a: int):
     return f(a)
 
 
